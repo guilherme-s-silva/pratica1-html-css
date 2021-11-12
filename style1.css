@@ -1,0 +1,47 @@
+body {
+    background-color:black;
+    background-image: url(images/bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-left: 225px;
+}
+
+#principal {
+    background-color:hsla(186, 100%, 40%, 0.75);
+    width: 900px;
+    height: 100%;
+}
+
+.conteudo {
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 0.3em;
+    padding-left: 1em;
+    padding-bottom: 25px;
+}
+
+.titulos {
+    text-align: center;
+}
+
+#legenda {
+    font-size: small;
+    padding-left: 10px;
+}
+
+.linha {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 850px;
+}
+
+.img {
+    border: solid red;
+    width: 120px;
+    height: 120px;
+    border-radius: 15px;
+}
+
+.img-cont {
+    display: flexbox;
+}
